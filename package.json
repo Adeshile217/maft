@@ -1,15 +1,12 @@
 {
   "name": "my-v0-project",
-  "homepage": "https://adeshile217.github.io/maft/",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "lint": "next lint"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
