@@ -3,8 +3,7 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'MAFT',
-  description: 'Created with v0',
-  generator: 'v0.dev',
+  description: 'Technology Consultant',
   icons:{
     icon:["./favicon.ico?v=4"],
     apple:["./apple-touch-icon.png?v=4"],
