@@ -51,7 +51,7 @@ export default function Home() {
             </Link>
           </nav>
           <div className="flex items-center gap-4">
-            <LanguageSwitcher />
+            
             <Button asChild>
               <a href="#contact">
                 <MessageSquareQuote className="mr-2 h-4 w-4" />
