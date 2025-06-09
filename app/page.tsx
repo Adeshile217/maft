@@ -61,7 +61,7 @@ export default function Home() {
             </Link>
           </nav>
           <div className="flex items-center gap-4">
-            <LanguageSwitcher />
+            {/* <LanguageSwitcher /> */}
             <Button
               asChild
               className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700"
