@@ -61,14 +61,17 @@ export default function Home() {
             </Link>
           </nav>
           <div className="flex items-center gap-4">
-            {/* <LanguageSwitcher /> */}
+            <LanguageSwitcher className="hidden md:flex"/>
             <Button
               asChild
               className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700"
             >
               <a href="#contact">
                 <MessageSquareQuote className="mr-2 h-4 w-4" />
+                <div className="hidden md:flex">
+
                 Request Quote
+                </div>
               </a>
             </Button>
           </div>
