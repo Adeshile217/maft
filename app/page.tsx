@@ -39,7 +39,7 @@ export default function Home() {
     <div className="flex min-h-screen flex-col">
       <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container flex h-16 items-center justify-between">
-          <Link href="/" className="flex items-center gap-2 font-bold text-xl">
+          <Link href="/" className="flex items-center justify-start gap-2 font-bold text-xl">
             <div className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">MAFT</div>
             <span className="text-slate-700">Technology</span>
           </Link>
@@ -61,7 +61,10 @@ export default function Home() {
             </Link>
           </nav>
           <div className="flex items-center gap-4">
-            <LanguageSwitcher className="hidden md:flex"/>
+            <div className="hidden md:flex">
+
+            <LanguageSwitcher />
+            </div>
             <Button
               asChild
               className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700"
